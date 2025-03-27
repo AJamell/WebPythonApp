@@ -24,5 +24,8 @@ pip install -r requirements.txt
 ### 5. Run the App with Gunicorn on Port 80
 sudo /home/**your-ec2-user**/WebPythonApp/.venv/bin/gunicorn --bind 0.0.0.0:80 app:app 
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
 
